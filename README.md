@@ -1,4 +1,4 @@
-# PGH Data Science San Francisco Crime Prediction Team #2
+# PGH Data Science San Francisco Crime Prediction -  Team #2
 
 This repo contains the code for Team #2's winning model for the [San Francisco Crime Classification](https://www.kaggle.com/c/sf-crime/) competition hosted by the [Pittsburgh Data Science Meetup](https://www.meetup.com/PGH-Data-Science/events/267877749/).
 
