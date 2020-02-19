@@ -111,8 +111,8 @@ df['Intersection'] = 1
 df.loc[df['Address'].str.contains('Block'), 'Intersection'] = 0
 
 transformed_df = pd.DataFrame()
-transformed_df['hour_sin'] = hour_min_sin
-transformed_df['hour_cos'] = hour_min_cos
+transformed_df['hour_sin'] = hour_sin
+transformed_df['hour_cos'] = hour_cos
 transformed_df['month_sin'] = month_sin
 transformed_df['month_cos'] = month_cos
 transformed_df['day_of_week_sin'] = day_of_week_sin
@@ -149,7 +149,7 @@ N_CLUSTERS = 2000
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%time
-# from sklearn.cluster import KMeans, MiniBatchKMeans
+# from sklearn.cluster import MiniBatchKMeans
 # 
 # kmeans = MiniBatchKMeans(n_clusters=N_CLUSTERS, random_state=0, verbose=True)
 # clusters = kmeans.fit_predict(df[['Y','X']])
